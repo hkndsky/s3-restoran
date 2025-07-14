@@ -82,12 +82,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 17,
+                      "duration": 19,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:45:09.623Z",
+                      "startTime": "2025-07-14T11:58:09.229Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -116,12 +116,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5,
+                      "duration": 6,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:45:09.750Z",
+                      "startTime": "2025-07-14T11:58:09.361Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -155,7 +155,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:45:09.758Z",
+                      "startTime": "2025-07-14T11:58:09.368Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -170,7 +170,7 @@
             },
             {
               "title": "main elementinde container class'ı var mı?",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -183,48 +183,18 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
+                      "status": "passed",
                       "duration": 3,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:58:22",
-                        "location": {
-                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                          "column": 22,
-                          "line": 58
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 56 |\u001b[39m   test(\u001b[32m\"main elementinde container class'ı var mı?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 57 |\u001b[39m     \u001b[36mconst\u001b[39m main \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"main.container\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 58 |\u001b[39m     expect(main)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 59 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 60 |\u001b[39m\n \u001b[90m 61 |\u001b[39m   test(\u001b[32m\"restoran adı uygun bir başlık etiketi içinde mi?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                            "column": 22,
-                            "line": 58
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[0m \u001b[90m 56 |\u001b[39m   test(\u001b[32m\"main elementinde container class'ı var mı?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 57 |\u001b[39m     \u001b[36mconst\u001b[39m main \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"main.container\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 58 |\u001b[39m     expect(main)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 59 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 60 |\u001b[39m\n \u001b[90m 61 |\u001b[39m   test(\u001b[32m\"restoran adı uygun bir başlık etiketi içinde mi?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:58:22\u001b[22m"
-                        }
-                      ],
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:45:09.761Z",
+                      "startTime": "2025-07-14T11:58:09.371Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\.test-results\\tests-main-HTML-ve-CSS-Gör-a5322-e-container-class-ı-var-mı-\\error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                        "column": 22,
-                        "line": 58
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "45e6f71b65db145e0a88-01f54ef2f3769a1d8611",
@@ -234,7 +204,7 @@
             },
             {
               "title": "restoran adı uygun bir başlık etiketi içinde mi?",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -245,50 +215,20 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 13,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:63:20",
-                        "location": {
-                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                          "column": 20,
-                          "line": 63
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 61 |\u001b[39m   test(\u001b[32m\"restoran adı uygun bir başlık etiketi içinde mi?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 62 |\u001b[39m     \u001b[36mconst\u001b[39m h1 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"h1\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m     expect(h1)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m     \u001b[36mconst\u001b[39m text \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m h1\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m     expect(text\u001b[33m.\u001b[39mtoLowerCase())\u001b[33m.\u001b[39mtoContain(\u001b[32m\"nefis lezzet\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 66 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                            "column": 20,
-                            "line": 63
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[0m \u001b[90m 61 |\u001b[39m   test(\u001b[32m\"restoran adı uygun bir başlık etiketi içinde mi?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 62 |\u001b[39m     \u001b[36mconst\u001b[39m h1 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"h1\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 63 |\u001b[39m     expect(h1)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 64 |\u001b[39m     \u001b[36mconst\u001b[39m text \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m h1\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m     expect(text\u001b[33m.\u001b[39mtoLowerCase())\u001b[33m.\u001b[39mtoContain(\u001b[32m\"nefis lezzet\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 66 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:63:20\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 6,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:45:10.244Z",
+                      "startTime": "2025-07-14T11:58:09.375Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\.test-results\\tests-main-HTML-ve-CSS-Gör-96872-r-başlık-etiketi-içinde-mi-\\error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                        "column": 20,
-                        "line": 63
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "45e6f71b65db145e0a88-3f25119beb3d024d60f5",
@@ -298,7 +238,7 @@
             },
             {
               "title": "nav etiketi mainMenu class'ına sahip mi?",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -309,50 +249,20 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 14,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:70:21",
-                        "location": {
-                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                          "column": 21,
-                          "line": 70
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 68 |\u001b[39m   test(\u001b[32m\"nav etiketi mainMenu class'ına sahip mi?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 69 |\u001b[39m     \u001b[36mconst\u001b[39m nav \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"nav.mainMenu\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 70 |\u001b[39m     expect(nav)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 71 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 72 |\u001b[39m\n \u001b[90m 73 |\u001b[39m   test(\u001b[32m\"nav içinde 5 adet link var mı?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                            "column": 21,
-                            "line": 70
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[0m \u001b[90m 68 |\u001b[39m   test(\u001b[32m\"nav etiketi mainMenu class'ına sahip mi?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 69 |\u001b[39m     \u001b[36mconst\u001b[39m nav \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"nav.mainMenu\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 70 |\u001b[39m     expect(nav)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 71 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 72 |\u001b[39m\n \u001b[90m 73 |\u001b[39m   test(\u001b[32m\"nav içinde 5 adet link var mı?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:70:21\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 2,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:45:10.850Z",
+                      "startTime": "2025-07-14T11:58:09.383Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\.test-results\\tests-main-HTML-ve-CSS-Gör-b57f9-ainMenu-class-ına-sahip-mi-\\error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                        "column": 21,
-                        "line": 70
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "45e6f71b65db145e0a88-5d62b4bd67c921d84739",
@@ -362,7 +272,7 @@
             },
             {
               "title": "nav içinde 5 adet link var mı?",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -373,50 +283,20 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 15,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m5\u001b[39m\nReceived: \u001b[31m0\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m5\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:75:26",
-                        "location": {
-                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                          "column": 26,
-                          "line": 75
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 73 |\u001b[39m   test(\u001b[32m\"nav içinde 5 adet link var mı?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 74 |\u001b[39m     \u001b[36mconst\u001b[39m links \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$$(\u001b[32m\"nav.mainMenu a\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 75 |\u001b[39m     expect(links\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBe(\u001b[35m5\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 76 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 77 |\u001b[39m\n \u001b[90m 78 |\u001b[39m   test(\u001b[32m\"banner görseli doğru şekilde eklenmiş mi?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                            "column": 26,
-                            "line": 75
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m5\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n\n\u001b[0m \u001b[90m 73 |\u001b[39m   test(\u001b[32m\"nav içinde 5 adet link var mı?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 74 |\u001b[39m     \u001b[36mconst\u001b[39m links \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$$(\u001b[32m\"nav.mainMenu a\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 75 |\u001b[39m     expect(links\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBe(\u001b[35m5\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 76 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 77 |\u001b[39m\n \u001b[90m 78 |\u001b[39m   test(\u001b[32m\"banner görseli doğru şekilde eklenmiş mi?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:75:26\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 4,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:45:11.444Z",
+                      "startTime": "2025-07-14T11:58:09.387Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\.test-results\\tests-main-HTML-ve-CSS-Gör-e2252--içinde-5-adet-link-var-mı-\\error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                        "column": 26,
-                        "line": 75
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "45e6f71b65db145e0a88-00b3fd0b800008a02047",
@@ -426,7 +306,7 @@
             },
             {
               "title": "banner görseli doğru şekilde eklenmiş mi?",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -437,50 +317,20 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 14,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:80:21",
-                        "location": {
-                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                          "column": 21,
-                          "line": 80
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 78 |\u001b[39m   test(\u001b[32m\"banner görseli doğru şekilde eklenmiş mi?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 79 |\u001b[39m     \u001b[36mconst\u001b[39m img \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"img[src*='banner.jpg']\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 80 |\u001b[39m     expect(img)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 81 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 82 |\u001b[39m\n \u001b[90m 83 |\u001b[39m   test(\u001b[32m\"hakkımızda, menümüz, galeri, iletişim bölümleri başlık ve açıklama olarak uygun etiketle ayrılmış mı?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                            "column": 21,
-                            "line": 80
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[0m \u001b[90m 78 |\u001b[39m   test(\u001b[32m\"banner görseli doğru şekilde eklenmiş mi?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 79 |\u001b[39m     \u001b[36mconst\u001b[39m img \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"img[src*='banner.jpg']\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 80 |\u001b[39m     expect(img)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 81 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 82 |\u001b[39m\n \u001b[90m 83 |\u001b[39m   test(\u001b[32m\"hakkımızda, menümüz, galeri, iletişim bölümleri başlık ve açıklama olarak uygun etiketle ayrılmış mı?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:80:21\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 4,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:45:12.051Z",
+                      "startTime": "2025-07-14T11:58:09.392Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\.test-results\\tests-main-HTML-ve-CSS-Gör-f4d4c--doğru-şekilde-eklenmiş-mi-\\error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                        "column": 21,
-                        "line": 80
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "45e6f71b65db145e0a88-2b16b950b5edb200d5f6",
@@ -490,7 +340,7 @@
             },
             {
               "title": "hakkımızda, menümüz, galeri, iletişim bölümleri başlık ve açıklama olarak uygun etiketle ayrılmış mı?",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -501,50 +351,20 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 14,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:87:27",
-                        "location": {
-                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                          "column": 27,
-                          "line": 87
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 85 |\u001b[39m     \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m title \u001b[36mof\u001b[39m sections) {\n \u001b[90m 86 |\u001b[39m       \u001b[36mconst\u001b[39m heading \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m`text=\"${title}\"`\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 87 |\u001b[39m       expect(heading)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 88 |\u001b[39m     }\n \u001b[90m 89 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 90 |\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                            "column": 27,
-                            "line": 87
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[0m \u001b[90m 85 |\u001b[39m     \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m title \u001b[36mof\u001b[39m sections) {\n \u001b[90m 86 |\u001b[39m       \u001b[36mconst\u001b[39m heading \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m`text=\"${title}\"`\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 87 |\u001b[39m       expect(heading)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 88 |\u001b[39m     }\n \u001b[90m 89 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 90 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:87:27\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 8,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:45:12.657Z",
+                      "startTime": "2025-07-14T11:58:09.397Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\.test-results\\tests-main-HTML-ve-CSS-Gör-463c5-uygun-etiketle-ayrılmış-mı-\\error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                        "column": 27,
-                        "line": 87
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "45e6f71b65db145e0a88-090125ab3ef03a2e4d68",
@@ -554,7 +374,7 @@
             },
             {
               "title": "iletişim kısmı bir sırasız liste (ul) içinde mi?",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -565,50 +385,20 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 13,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:93:20",
-                        "location": {
-                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                          "column": 20,
-                          "line": 93
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 91 |\u001b[39m   test(\u001b[32m\"iletişim kısmı bir sırasız liste (ul) içinde mi?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 92 |\u001b[39m     \u001b[36mconst\u001b[39m ul \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"ul\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 93 |\u001b[39m     expect(ul)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 94 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 95 |\u001b[39m\n \u001b[90m 96 |\u001b[39m   \u001b[90m//\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                            "column": 20,
-                            "line": 93
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[0m \u001b[90m 91 |\u001b[39m   test(\u001b[32m\"iletişim kısmı bir sırasız liste (ul) içinde mi?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 92 |\u001b[39m     \u001b[36mconst\u001b[39m ul \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"ul\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 93 |\u001b[39m     expect(ul)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 94 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 95 |\u001b[39m\n \u001b[90m 96 |\u001b[39m   \u001b[90m//\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:93:20\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 2,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:45:13.251Z",
+                      "startTime": "2025-07-14T11:58:09.407Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\.test-results\\tests-main-HTML-ve-CSS-Gör-884f2-sırasız-liste-ul-içinde-mi-\\error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                        "column": 20,
-                        "line": 93
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "45e6f71b65db145e0a88-a81f6fee2ec1de9afebf",
@@ -629,10 +419,10 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 7,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 30,
+                      "duration": 15,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"rgb\u001b[7m(231, 153, 71\u001b[27m)\"\u001b[39m\nReceived: \u001b[31m\"rgb\u001b[7ma(0, 0, 0, 0\u001b[27m)\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"rgb\u001b[7m(231, 153, 71\u001b[27m)\"\u001b[39m\nReceived: \u001b[31m\"rgb\u001b[7ma(0, 0, 0, 0\u001b[27m)\"\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:103:35",
@@ -656,7 +446,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:45:13.856Z",
+                      "startTime": "2025-07-14T11:58:09.411Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -693,33 +483,34 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 8,
+                      "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 14,
+                      "duration": 32,
                       "error": {
-                        "message": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
-                        "stack": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:109:30",
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m60\u001b[27mpx\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7m32\u001b[27mpx\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m60\u001b[27mpx\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7m32\u001b[27mpx\"\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:110:28",
                         "location": {
-                          "file": "eval at evaluate (:291:30), <anonymous>",
-                          "column": 7,
-                          "line": 1
-                        }
+                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
+                          "column": 28,
+                          "line": 110
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 108 |\u001b[39m     \u001b[36mconst\u001b[39m h1 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"h1\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 109 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m h1)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 110 |\u001b[39m     expect(style\u001b[33m.\u001b[39mfontSize)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"60px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 111 |\u001b[39m     expect(style\u001b[33m.\u001b[39mtextAlign)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"center\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 112 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 113 |\u001b[39m\u001b[0m"
                       },
                       "errors": [
                         {
                           "location": {
-                            "file": "eval at evaluate (:291:30), <anonymous>",
-                            "column": 7,
-                            "line": 1
+                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
+                            "column": 28,
+                            "line": 110
                           },
-                          "message": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n\u001b[2m    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\u001b[22m\n\u001b[2m    at UtilityScript.evaluate (<anonymous>:293:16)\u001b[22m\n\u001b[2m    at UtilityScript.<anonymous> (<anonymous>:1:44)\u001b[22m\n\u001b[2m    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\u001b[22m\n\u001b[2m    at UtilityScript.evaluate (<anonymous>:293:16)\u001b[22m\n\u001b[2m    at UtilityScript.<anonymous> (<anonymous>:1:44)\u001b[22m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:109:30\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m60\u001b[27mpx\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7m32\u001b[27mpx\"\u001b[39m\n\n\u001b[0m \u001b[90m 108 |\u001b[39m     \u001b[36mconst\u001b[39m h1 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"h1\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 109 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m h1)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 110 |\u001b[39m     expect(style\u001b[33m.\u001b[39mfontSize)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"60px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 111 |\u001b[39m     expect(style\u001b[33m.\u001b[39mtextAlign)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"center\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 112 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 113 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:110:28\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:45:14.463Z",
+                      "startTime": "2025-07-14T11:58:09.913Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -729,9 +520,9 @@
                         }
                       ],
                       "errorLocation": {
-                        "file": "eval at evaluate (:291:30), <anonymous>",
-                        "column": 7,
-                        "line": 1
+                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
+                        "column": 28,
+                        "line": 110
                       }
                     }
                   ],
@@ -756,33 +547,34 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 15,
+                      "duration": 33,
                       "error": {
-                        "message": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
-                        "stack": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:116:30",
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"center\"\u001b[39m\nReceived: \u001b[31m\"start\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"center\"\u001b[39m\nReceived: \u001b[31m\"start\"\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:117:29",
                         "location": {
-                          "file": "eval at evaluate (:291:30), <anonymous>",
-                          "column": 7,
-                          "line": 1
-                        }
+                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
+                          "column": 29,
+                          "line": 117
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 115 |\u001b[39m     \u001b[36mconst\u001b[39m nav \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"nav.mainMenu\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 116 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m nav)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 117 |\u001b[39m     expect(style\u001b[33m.\u001b[39mtextAlign)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"center\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 118 |\u001b[39m     expect(style\u001b[33m.\u001b[39mpadding)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 119 |\u001b[39m     expect(style\u001b[33m.\u001b[39mfontSize)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"20px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 120 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
                       },
                       "errors": [
                         {
                           "location": {
-                            "file": "eval at evaluate (:291:30), <anonymous>",
-                            "column": 7,
-                            "line": 1
+                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
+                            "column": 29,
+                            "line": 117
                           },
-                          "message": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n\u001b[2m    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\u001b[22m\n\u001b[2m    at UtilityScript.evaluate (<anonymous>:293:16)\u001b[22m\n\u001b[2m    at UtilityScript.<anonymous> (<anonymous>:1:44)\u001b[22m\n\u001b[2m    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\u001b[22m\n\u001b[2m    at UtilityScript.evaluate (<anonymous>:293:16)\u001b[22m\n\u001b[2m    at UtilityScript.<anonymous> (<anonymous>:1:44)\u001b[22m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:116:30\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"center\"\u001b[39m\nReceived: \u001b[31m\"start\"\u001b[39m\n\n\u001b[0m \u001b[90m 115 |\u001b[39m     \u001b[36mconst\u001b[39m nav \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"nav.mainMenu\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 116 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m nav)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 117 |\u001b[39m     expect(style\u001b[33m.\u001b[39mtextAlign)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"center\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 118 |\u001b[39m     expect(style\u001b[33m.\u001b[39mpadding)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 119 |\u001b[39m     expect(style\u001b[33m.\u001b[39mfontSize)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"20px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 120 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:117:29\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:45:15.087Z",
+                      "startTime": "2025-07-14T11:58:10.522Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -792,9 +584,9 @@
                         }
                       ],
                       "errorLocation": {
-                        "file": "eval at evaluate (:291:30), <anonymous>",
-                        "column": 7,
-                        "line": 1
+                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
+                        "column": 29,
+                        "line": 117
                       }
                     }
                   ],
@@ -819,33 +611,34 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 10,
+                      "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 15,
+                      "duration": 32,
                       "error": {
-                        "message": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
-                        "stack": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:124:30",
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"1\u001b[7m5\u001b[27mpx\"\u001b[39m\nReceived: \u001b[31m\"1\u001b[7m6\u001b[27mpx\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"1\u001b[7m5\u001b[27mpx\"\u001b[39m\nReceived: \u001b[31m\"1\u001b[7m6\u001b[27mpx\"\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:125:28",
                         "location": {
-                          "file": "eval at evaluate (:291:30), <anonymous>",
-                          "column": 7,
-                          "line": 1
-                        }
+                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
+                          "column": 28,
+                          "line": 125
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 123 |\u001b[39m     \u001b[36mconst\u001b[39m p \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"p\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 124 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m p)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 125 |\u001b[39m     expect(style\u001b[33m.\u001b[39mfontSize)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"15px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 126 |\u001b[39m     expect(style\u001b[33m.\u001b[39mfontFamily\u001b[33m.\u001b[39mtoLowerCase())\u001b[33m.\u001b[39mtoContain(\u001b[32m\"arial\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 127 |\u001b[39m     expect(style\u001b[33m.\u001b[39mpadding)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 128 |\u001b[39m     expect(style\u001b[33m.\u001b[39mlineHeight)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"22.5px\"\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// 15px * 1.5\u001b[39m\u001b[0m"
                       },
                       "errors": [
                         {
                           "location": {
-                            "file": "eval at evaluate (:291:30), <anonymous>",
-                            "column": 7,
-                            "line": 1
+                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
+                            "column": 28,
+                            "line": 125
                           },
-                          "message": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n\u001b[2m    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\u001b[22m\n\u001b[2m    at UtilityScript.evaluate (<anonymous>:293:16)\u001b[22m\n\u001b[2m    at UtilityScript.<anonymous> (<anonymous>:1:44)\u001b[22m\n\u001b[2m    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\u001b[22m\n\u001b[2m    at UtilityScript.evaluate (<anonymous>:293:16)\u001b[22m\n\u001b[2m    at UtilityScript.<anonymous> (<anonymous>:1:44)\u001b[22m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:124:30\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"1\u001b[7m5\u001b[27mpx\"\u001b[39m\nReceived: \u001b[31m\"1\u001b[7m6\u001b[27mpx\"\u001b[39m\n\n\u001b[0m \u001b[90m 123 |\u001b[39m     \u001b[36mconst\u001b[39m p \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"p\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 124 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m p)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 125 |\u001b[39m     expect(style\u001b[33m.\u001b[39mfontSize)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"15px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 126 |\u001b[39m     expect(style\u001b[33m.\u001b[39mfontFamily\u001b[33m.\u001b[39mtoLowerCase())\u001b[33m.\u001b[39mtoContain(\u001b[32m\"arial\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 127 |\u001b[39m     expect(style\u001b[33m.\u001b[39mpadding)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 128 |\u001b[39m     expect(style\u001b[33m.\u001b[39mlineHeight)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"22.5px\"\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// 15px * 1.5\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:125:28\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:45:15.662Z",
+                      "startTime": "2025-07-14T11:58:11.145Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -855,9 +648,9 @@
                         }
                       ],
                       "errorLocation": {
-                        "file": "eval at evaluate (:291:30), <anonymous>",
-                        "column": 7,
-                        "line": 1
+                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
+                        "column": 28,
+                        "line": 125
                       }
                     }
                   ],
@@ -882,33 +675,34 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 11,
+                      "workerIndex": 4,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 15,
+                      "duration": 32,
                       "error": {
-                        "message": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
-                        "stack": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:134:30",
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m1\u001b[27m0px\"\u001b[39m\nReceived: \u001b[31m\"0px\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m1\u001b[27m0px\"\u001b[39m\nReceived: \u001b[31m\"0px\"\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:135:32",
                         "location": {
-                          "file": "eval at evaluate (:291:30), <anonymous>",
-                          "column": 7,
-                          "line": 1
-                        }
+                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
+                          "column": 32,
+                          "line": 135
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 133 |\u001b[39m     \u001b[36mconst\u001b[39m img \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"img\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 134 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m img)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 135 |\u001b[39m     expect(style\u001b[33m.\u001b[39mborderRadius)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 136 |\u001b[39m     expect(style\u001b[33m.\u001b[39mwidth)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"750px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 137 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 138 |\u001b[39m\u001b[0m"
                       },
                       "errors": [
                         {
                           "location": {
-                            "file": "eval at evaluate (:291:30), <anonymous>",
-                            "column": 7,
-                            "line": 1
+                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
+                            "column": 32,
+                            "line": 135
                           },
-                          "message": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n\u001b[2m    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\u001b[22m\n\u001b[2m    at UtilityScript.evaluate (<anonymous>:293:16)\u001b[22m\n\u001b[2m    at UtilityScript.<anonymous> (<anonymous>:1:44)\u001b[22m\n\u001b[2m    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\u001b[22m\n\u001b[2m    at UtilityScript.evaluate (<anonymous>:293:16)\u001b[22m\n\u001b[2m    at UtilityScript.<anonymous> (<anonymous>:1:44)\u001b[22m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:134:30\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m1\u001b[27m0px\"\u001b[39m\nReceived: \u001b[31m\"0px\"\u001b[39m\n\n\u001b[0m \u001b[90m 133 |\u001b[39m     \u001b[36mconst\u001b[39m img \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"img\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 134 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m img)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 135 |\u001b[39m     expect(style\u001b[33m.\u001b[39mborderRadius)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 136 |\u001b[39m     expect(style\u001b[33m.\u001b[39mwidth)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"750px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 137 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 138 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:135:32\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:45:16.252Z",
+                      "startTime": "2025-07-14T11:58:11.737Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -918,9 +712,9 @@
                         }
                       ],
                       "errorLocation": {
-                        "file": "eval at evaluate (:291:30), <anonymous>",
-                        "column": 7,
-                        "line": 1
+                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
+                        "column": 32,
+                        "line": 135
                       }
                     }
                   ],
@@ -945,33 +739,34 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 12,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 14,
+                      "duration": 30,
                       "error": {
-                        "message": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
-                        "stack": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:141:30",
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m1\u001b[27m0px\"\u001b[39m\nReceived: \u001b[31m\"0px\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m1\u001b[27m0px\"\u001b[39m\nReceived: \u001b[31m\"0px\"\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:142:30",
                         "location": {
-                          "file": "eval at evaluate (:291:30), <anonymous>",
-                          "column": 7,
-                          "line": 1
-                        }
+                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
+                          "column": 30,
+                          "line": 142
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m     \u001b[36mconst\u001b[39m ul \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"ul\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 141 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m ul)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m     expect(style\u001b[33m.\u001b[39mmarginLeft)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m     expect(style\u001b[33m.\u001b[39mmarginRight)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 144 |\u001b[39m     expect(style\u001b[33m.\u001b[39mlineHeight)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"24px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 145 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
                       },
                       "errors": [
                         {
                           "location": {
-                            "file": "eval at evaluate (:291:30), <anonymous>",
-                            "column": 7,
-                            "line": 1
+                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
+                            "column": 30,
+                            "line": 142
                           },
-                          "message": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n\u001b[2m    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\u001b[22m\n\u001b[2m    at UtilityScript.evaluate (<anonymous>:293:16)\u001b[22m\n\u001b[2m    at UtilityScript.<anonymous> (<anonymous>:1:44)\u001b[22m\n\u001b[2m    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\u001b[22m\n\u001b[2m    at UtilityScript.evaluate (<anonymous>:293:16)\u001b[22m\n\u001b[2m    at UtilityScript.<anonymous> (<anonymous>:1:44)\u001b[22m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:141:30\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m1\u001b[27m0px\"\u001b[39m\nReceived: \u001b[31m\"0px\"\u001b[39m\n\n\u001b[0m \u001b[90m 140 |\u001b[39m     \u001b[36mconst\u001b[39m ul \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"ul\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 141 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m ul)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m     expect(style\u001b[33m.\u001b[39mmarginLeft)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m     expect(style\u001b[33m.\u001b[39mmarginRight)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 144 |\u001b[39m     expect(style\u001b[33m.\u001b[39mlineHeight)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"24px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 145 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:142:30\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:45:16.845Z",
+                      "startTime": "2025-07-14T11:58:12.332Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -981,9 +776,9 @@
                         }
                       ],
                       "errorLocation": {
-                        "file": "eval at evaluate (:291:30), <anonymous>",
-                        "column": 7,
-                        "line": 1
+                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
+                        "column": 30,
+                        "line": 142
                       }
                     }
                   ],
@@ -1008,33 +803,34 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 13,
+                      "workerIndex": 6,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 15,
+                      "duration": 32,
                       "error": {
-                        "message": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
-                        "stack": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:149:30",
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m750\u001b[27mpx\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7m1264\u001b[27mpx\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m750\u001b[27mpx\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7m1264\u001b[27mpx\"\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:150:25",
                         "location": {
-                          "file": "eval at evaluate (:291:30), <anonymous>",
-                          "column": 7,
-                          "line": 1
-                        }
+                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
+                          "column": 25,
+                          "line": 150
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 148 |\u001b[39m     \u001b[36mconst\u001b[39m container \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\".container\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 149 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m container)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 150 |\u001b[39m     expect(style\u001b[33m.\u001b[39mwidth)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"750px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 151 |\u001b[39m     expect(style\u001b[33m.\u001b[39mbackgroundColor)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"rgb(255, 255, 255)\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 152 |\u001b[39m     expect(style\u001b[33m.\u001b[39mpadding)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"50px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 153 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
                       },
                       "errors": [
                         {
                           "location": {
-                            "file": "eval at evaluate (:291:30), <anonymous>",
-                            "column": 7,
-                            "line": 1
+                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
+                            "column": 25,
+                            "line": 150
                           },
-                          "message": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n\u001b[2m    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\u001b[22m\n\u001b[2m    at UtilityScript.evaluate (<anonymous>:293:16)\u001b[22m\n\u001b[2m    at UtilityScript.<anonymous> (<anonymous>:1:44)\u001b[22m\n\u001b[2m    at eval (eval at evaluate (:291:30), <anonymous>:1:7)\u001b[22m\n\u001b[2m    at UtilityScript.evaluate (<anonymous>:293:16)\u001b[22m\n\u001b[2m    at UtilityScript.<anonymous> (<anonymous>:1:44)\u001b[22m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:149:30\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m750\u001b[27mpx\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7m1264\u001b[27mpx\"\u001b[39m\n\n\u001b[0m \u001b[90m 148 |\u001b[39m     \u001b[36mconst\u001b[39m container \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\".container\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 149 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m container)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 150 |\u001b[39m     expect(style\u001b[33m.\u001b[39mwidth)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"750px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 151 |\u001b[39m     expect(style\u001b[33m.\u001b[39mbackgroundColor)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"rgb(255, 255, 255)\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 152 |\u001b[39m     expect(style\u001b[33m.\u001b[39mpadding)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"50px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 153 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:150:25\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:45:17.452Z",
+                      "startTime": "2025-07-14T11:58:12.923Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1044,9 +840,9 @@
                         }
                       ],
                       "errorLocation": {
-                        "file": "eval at evaluate (:291:30), <anonymous>",
-                        "column": 7,
-                        "line": 1
+                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
+                        "column": 25,
+                        "line": 150
                       }
                     }
                   ],
@@ -1065,11 +861,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-07-14T11:45:09.078Z",
-    "duration": 8917.792,
-    "expected": 3,
+    "startTime": "2025-07-14T11:58:08.667Z",
+    "duration": 4797.567999999999,
+    "expected": 10,
     "skipped": 0,
-    "unexpected": 14,
+    "unexpected": 7,
     "flaky": 0
   }
 }
