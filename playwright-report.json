@@ -82,12 +82,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 19,
+                      "duration": 20,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:58:09.229Z",
+                      "startTime": "2025-07-14T12:33:42.544Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -121,7 +121,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:58:09.361Z",
+                      "startTime": "2025-07-14T12:33:42.668Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -155,7 +155,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:58:09.368Z",
+                      "startTime": "2025-07-14T12:33:42.675Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -189,7 +189,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:58:09.371Z",
+                      "startTime": "2025-07-14T12:33:42.678Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -218,12 +218,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6,
+                      "duration": 7,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:58:09.375Z",
+                      "startTime": "2025-07-14T12:33:42.682Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -257,7 +257,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:58:09.383Z",
+                      "startTime": "2025-07-14T12:33:42.690Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -291,7 +291,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:58:09.387Z",
+                      "startTime": "2025-07-14T12:33:42.693Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -320,12 +320,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4,
+                      "duration": 3,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:58:09.392Z",
+                      "startTime": "2025-07-14T12:33:42.699Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -354,12 +354,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8,
+                      "duration": 10,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:58:09.397Z",
+                      "startTime": "2025-07-14T12:33:42.703Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -393,7 +393,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:58:09.407Z",
+                      "startTime": "2025-07-14T12:33:42.714Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -408,7 +408,7 @@
             },
             {
               "title": "body stil: background-color ve margin",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -421,48 +421,18 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 15,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"rgb\u001b[7m(231, 153, 71\u001b[27m)\"\u001b[39m\nReceived: \u001b[31m\"rgb\u001b[7ma(0, 0, 0, 0\u001b[27m)\"\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"rgb\u001b[7m(231, 153, 71\u001b[27m)\"\u001b[39m\nReceived: \u001b[31m\"rgb\u001b[7ma(0, 0, 0, 0\u001b[27m)\"\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:103:35",
-                        "location": {
-                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                          "column": 35,
-                          "line": 103
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 101 |\u001b[39m     \u001b[36mconst\u001b[39m body \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"body\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 102 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m body)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 103 |\u001b[39m     expect(style\u001b[33m.\u001b[39mbackgroundColor)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"rgb(231, 153, 71)\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 104 |\u001b[39m     expect(style\u001b[33m.\u001b[39mmargin)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"0px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 105 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 106 |\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                            "column": 35,
-                            "line": 103
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"rgb\u001b[7m(231, 153, 71\u001b[27m)\"\u001b[39m\nReceived: \u001b[31m\"rgb\u001b[7ma(0, 0, 0, 0\u001b[27m)\"\u001b[39m\n\n\u001b[0m \u001b[90m 101 |\u001b[39m     \u001b[36mconst\u001b[39m body \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"body\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 102 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m body)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 103 |\u001b[39m     expect(style\u001b[33m.\u001b[39mbackgroundColor)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"rgb(231, 153, 71)\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 104 |\u001b[39m     expect(style\u001b[33m.\u001b[39mmargin)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"0px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 105 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 106 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:103:35\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 12,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:58:09.411Z",
+                      "startTime": "2025-07-14T12:33:42.717Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\.test-results\\tests-main-HTML-ve-CSS-Gör-b60e4--background-color-ve-margin\\error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                        "column": 35,
-                        "line": 103
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "45e6f71b65db145e0a88-750a0adb0d500108159c",
@@ -472,7 +442,7 @@
             },
             {
               "title": "h1 stil: font-size ve text-align",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -483,50 +453,20 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 32,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m60\u001b[27mpx\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7m32\u001b[27mpx\"\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m60\u001b[27mpx\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7m32\u001b[27mpx\"\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:110:28",
-                        "location": {
-                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                          "column": 28,
-                          "line": 110
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 108 |\u001b[39m     \u001b[36mconst\u001b[39m h1 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"h1\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 109 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m h1)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 110 |\u001b[39m     expect(style\u001b[33m.\u001b[39mfontSize)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"60px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 111 |\u001b[39m     expect(style\u001b[33m.\u001b[39mtextAlign)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"center\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 112 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 113 |\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                            "column": 28,
-                            "line": 110
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m60\u001b[27mpx\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7m32\u001b[27mpx\"\u001b[39m\n\n\u001b[0m \u001b[90m 108 |\u001b[39m     \u001b[36mconst\u001b[39m h1 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"h1\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 109 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m h1)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 110 |\u001b[39m     expect(style\u001b[33m.\u001b[39mfontSize)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"60px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 111 |\u001b[39m     expect(style\u001b[33m.\u001b[39mtextAlign)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"center\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 112 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 113 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:110:28\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 9,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:58:09.913Z",
+                      "startTime": "2025-07-14T12:33:42.730Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\.test-results\\tests-main-HTML-ve-CSS-Gör-3bc2e-til-font-size-ve-text-align\\error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                        "column": 28,
-                        "line": 110
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "45e6f71b65db145e0a88-664359cce7408c1896d9",
@@ -536,7 +476,7 @@
             },
             {
               "title": "mainMenu nav stil: text-align, padding, font-size",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -547,50 +487,20 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 33,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"center\"\u001b[39m\nReceived: \u001b[31m\"start\"\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"center\"\u001b[39m\nReceived: \u001b[31m\"start\"\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:117:29",
-                        "location": {
-                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                          "column": 29,
-                          "line": 117
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 115 |\u001b[39m     \u001b[36mconst\u001b[39m nav \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"nav.mainMenu\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 116 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m nav)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 117 |\u001b[39m     expect(style\u001b[33m.\u001b[39mtextAlign)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"center\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 118 |\u001b[39m     expect(style\u001b[33m.\u001b[39mpadding)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 119 |\u001b[39m     expect(style\u001b[33m.\u001b[39mfontSize)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"20px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 120 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                            "column": 29,
-                            "line": 117
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"center\"\u001b[39m\nReceived: \u001b[31m\"start\"\u001b[39m\n\n\u001b[0m \u001b[90m 115 |\u001b[39m     \u001b[36mconst\u001b[39m nav \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"nav.mainMenu\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 116 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m nav)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 117 |\u001b[39m     expect(style\u001b[33m.\u001b[39mtextAlign)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"center\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 118 |\u001b[39m     expect(style\u001b[33m.\u001b[39mpadding)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 119 |\u001b[39m     expect(style\u001b[33m.\u001b[39mfontSize)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"20px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 120 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:117:29\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 8,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:58:10.522Z",
+                      "startTime": "2025-07-14T12:33:42.741Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\.test-results\\tests-main-HTML-ve-CSS-Gör-473ff-ext-align-padding-font-size\\error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                        "column": 29,
-                        "line": 117
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "45e6f71b65db145e0a88-68933b264c09bce75ad4",
@@ -600,7 +510,7 @@
             },
             {
               "title": "<p> etiketlerinin stil kontrolü",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -611,50 +521,20 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 32,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"1\u001b[7m5\u001b[27mpx\"\u001b[39m\nReceived: \u001b[31m\"1\u001b[7m6\u001b[27mpx\"\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"1\u001b[7m5\u001b[27mpx\"\u001b[39m\nReceived: \u001b[31m\"1\u001b[7m6\u001b[27mpx\"\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:125:28",
-                        "location": {
-                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                          "column": 28,
-                          "line": 125
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 123 |\u001b[39m     \u001b[36mconst\u001b[39m p \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"p\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 124 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m p)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 125 |\u001b[39m     expect(style\u001b[33m.\u001b[39mfontSize)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"15px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 126 |\u001b[39m     expect(style\u001b[33m.\u001b[39mfontFamily\u001b[33m.\u001b[39mtoLowerCase())\u001b[33m.\u001b[39mtoContain(\u001b[32m\"arial\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 127 |\u001b[39m     expect(style\u001b[33m.\u001b[39mpadding)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 128 |\u001b[39m     expect(style\u001b[33m.\u001b[39mlineHeight)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"22.5px\"\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// 15px * 1.5\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                            "column": 28,
-                            "line": 125
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"1\u001b[7m5\u001b[27mpx\"\u001b[39m\nReceived: \u001b[31m\"1\u001b[7m6\u001b[27mpx\"\u001b[39m\n\n\u001b[0m \u001b[90m 123 |\u001b[39m     \u001b[36mconst\u001b[39m p \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"p\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 124 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m p)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 125 |\u001b[39m     expect(style\u001b[33m.\u001b[39mfontSize)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"15px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 126 |\u001b[39m     expect(style\u001b[33m.\u001b[39mfontFamily\u001b[33m.\u001b[39mtoLowerCase())\u001b[33m.\u001b[39mtoContain(\u001b[32m\"arial\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 127 |\u001b[39m     expect(style\u001b[33m.\u001b[39mpadding)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 128 |\u001b[39m     expect(style\u001b[33m.\u001b[39mlineHeight)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"22.5px\"\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// 15px * 1.5\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:125:28\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 9,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:58:11.145Z",
+                      "startTime": "2025-07-14T12:33:42.750Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\.test-results\\tests-main-HTML-ve-CSS-Gör-1771a-etiketlerinin-stil-kontrolü\\error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                        "column": 28,
-                        "line": 125
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "45e6f71b65db145e0a88-11806ef1b994cca70eb7",
@@ -664,7 +544,7 @@
             },
             {
               "title": "img stil: border-radius ve width",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -675,50 +555,20 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 32,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m1\u001b[27m0px\"\u001b[39m\nReceived: \u001b[31m\"0px\"\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m1\u001b[27m0px\"\u001b[39m\nReceived: \u001b[31m\"0px\"\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:135:32",
-                        "location": {
-                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                          "column": 32,
-                          "line": 135
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 133 |\u001b[39m     \u001b[36mconst\u001b[39m img \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"img\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 134 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m img)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 135 |\u001b[39m     expect(style\u001b[33m.\u001b[39mborderRadius)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 136 |\u001b[39m     expect(style\u001b[33m.\u001b[39mwidth)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"750px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 137 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 138 |\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                            "column": 32,
-                            "line": 135
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m1\u001b[27m0px\"\u001b[39m\nReceived: \u001b[31m\"0px\"\u001b[39m\n\n\u001b[0m \u001b[90m 133 |\u001b[39m     \u001b[36mconst\u001b[39m img \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"img\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 134 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m img)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 135 |\u001b[39m     expect(style\u001b[33m.\u001b[39mborderRadius)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 136 |\u001b[39m     expect(style\u001b[33m.\u001b[39mwidth)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"750px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 137 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 138 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:135:32\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 8,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:58:11.737Z",
+                      "startTime": "2025-07-14T12:33:42.760Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\.test-results\\tests-main-HTML-ve-CSS-Gör-f2f08-stil-border-radius-ve-width\\error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                        "column": 32,
-                        "line": 135
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "45e6f71b65db145e0a88-da0952af02a371be6ba0",
@@ -728,7 +578,7 @@
             },
             {
               "title": "ul stil: margin ve line-height",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -739,50 +589,20 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 30,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m1\u001b[27m0px\"\u001b[39m\nReceived: \u001b[31m\"0px\"\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m1\u001b[27m0px\"\u001b[39m\nReceived: \u001b[31m\"0px\"\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:142:30",
-                        "location": {
-                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                          "column": 30,
-                          "line": 142
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m     \u001b[36mconst\u001b[39m ul \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"ul\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 141 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m ul)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m     expect(style\u001b[33m.\u001b[39mmarginLeft)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m     expect(style\u001b[33m.\u001b[39mmarginRight)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 144 |\u001b[39m     expect(style\u001b[33m.\u001b[39mlineHeight)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"24px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 145 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                            "column": 30,
-                            "line": 142
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m1\u001b[27m0px\"\u001b[39m\nReceived: \u001b[31m\"0px\"\u001b[39m\n\n\u001b[0m \u001b[90m 140 |\u001b[39m     \u001b[36mconst\u001b[39m ul \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"ul\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 141 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m ul)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m     expect(style\u001b[33m.\u001b[39mmarginLeft)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m     expect(style\u001b[33m.\u001b[39mmarginRight)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"10px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 144 |\u001b[39m     expect(style\u001b[33m.\u001b[39mlineHeight)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"24px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 145 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:142:30\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 8,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:58:12.332Z",
+                      "startTime": "2025-07-14T12:33:42.769Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\.test-results\\tests-main-HTML-ve-CSS-Gör-d1551--stil-margin-ve-line-height\\error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                        "column": 30,
-                        "line": 142
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "45e6f71b65db145e0a88-db16ab22dde2dd6c730b",
@@ -792,7 +612,7 @@
             },
             {
               "title": ".container stil: width, margin, background-color, padding",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -803,50 +623,20 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 32,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m750\u001b[27mpx\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7m1264\u001b[27mpx\"\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m750\u001b[27mpx\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7m1264\u001b[27mpx\"\u001b[39m\n    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:150:25",
-                        "location": {
-                          "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                          "column": 25,
-                          "line": 150
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 148 |\u001b[39m     \u001b[36mconst\u001b[39m container \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\".container\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 149 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m container)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 150 |\u001b[39m     expect(style\u001b[33m.\u001b[39mwidth)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"750px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 151 |\u001b[39m     expect(style\u001b[33m.\u001b[39mbackgroundColor)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"rgb(255, 255, 255)\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 152 |\u001b[39m     expect(style\u001b[33m.\u001b[39mpadding)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"50px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 153 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                            "column": 25,
-                            "line": 150
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7m750\u001b[27mpx\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7m1264\u001b[27mpx\"\u001b[39m\n\n\u001b[0m \u001b[90m 148 |\u001b[39m     \u001b[36mconst\u001b[39m container \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\".container\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 149 |\u001b[39m     \u001b[36mconst\u001b[39m style \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mevaluate((el) \u001b[33m=>\u001b[39m getComputedStyle(el)\u001b[33m,\u001b[39m container)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 150 |\u001b[39m     expect(style\u001b[33m.\u001b[39mwidth)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"750px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 151 |\u001b[39m     expect(style\u001b[33m.\u001b[39mbackgroundColor)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"rgb(255, 255, 255)\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 152 |\u001b[39m     expect(style\u001b[33m.\u001b[39mpadding)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"50px\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 153 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js:150:25\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 8,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-07-14T11:58:12.923Z",
+                      "startTime": "2025-07-14T12:33:42.778Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\.test-results\\tests-main-HTML-ve-CSS-Gör-8eebd-in-background-color-padding\\error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\hkn\\Documents\\GitHub\\s3-restoran\\tests\\main.spec.js",
-                        "column": 25,
-                        "line": 150
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "45e6f71b65db145e0a88-a0ff4e4a42937c324147",
@@ -861,11 +651,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-07-14T11:58:08.667Z",
-    "duration": 4797.567999999999,
-    "expected": 10,
+    "startTime": "2025-07-14T12:33:42.074Z",
+    "duration": 1092.421,
+    "expected": 17,
     "skipped": 0,
-    "unexpected": 7,
+    "unexpected": 0,
     "flaky": 0
   }
 }
